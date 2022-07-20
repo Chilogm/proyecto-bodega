@@ -15,11 +15,11 @@
 </head>
 <body>
     <header class="header">     
-        <img src="../imagenes/Logo-Familia-01.png" alt="logo de zaina" width="150" height="110"> 
-        <a class="icono-menu" href="#" >
+        <img class="logo-header" src="../imagenes/Logo-Familia-01.png" alt="logo de zaina"> 
+        <a class="icono-menu" href="#abierto" >
             <span class="jam jam-menu"></span>
            </a>
-        <nav>
+        <nav class="nav" id="abierto">
          <ul class="nav-lista">
              <li>
                  <a class="nav-item" href="../index.html">Familia Zaina</a>
@@ -36,18 +36,23 @@
              <li>
                  <a class="nav-item"  href="./contacto.html">Contacto</a>
              </li>
+             <li>
+                <a class="icono-cerrar" href="#cerrado">
+                    <span class="jam jam-close"></span>
+                </a>
+             </li>
          </ul>
         </nav>
      </header>
      <main>
         <section>
             <div>
-                <img class="imagen-grande" src="../imagenes/Nosotros 2.jpg" alt="Familia completa" width="300" height="200">
+                <img class="imagen-nosotros" src="../imagenes/nosotros.png" alt="Familia completa" width="300" height="200">
                 <h2 class="titulo-nosotros">Quienes somos</h2>
                 <p class="parrafo-nosotros">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vitae accusamus ullam quasi quam, voluptate iste! Eligendi exercitationem eos culpa porro laboriosam est, nobis ipsum excepturi error doloremque hic. Perferendis!</p>
             </div>
             <div>
-                <img class="imagen-grande" src="" alt="Foto antigua"> 
+                <img class="imagen-nosotros" src="../imagenes/nos1.png" alt="Foto antigua"> 
                 <h2 class="titulo-nosotros">
                     Quienes fuimos
                 </h2 class="titulo-nosotros">
@@ -56,7 +61,7 @@
                 </p>
             </div>
             <div>
-                <img class="imagen-grande"  src="" alt="Foto familiar">
+                <img class="imagen-nosotros" src="../imagenes/nos2.png" alt="Foto familiar">
                 <h2 class="titulo-nosotros">
                     Titulo <!--Palabras claves-->
                 </h2>
