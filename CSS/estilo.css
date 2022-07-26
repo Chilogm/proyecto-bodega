@@ -39,6 +39,17 @@ body {
    display: none;
 }
 
+h2 {
+   font-family: 'Montserrat', sans-serif;
+}
+.lista-modal {
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin: 15px;
+}
 .redes-modal {
    padding: 8%;
    margin: 10px;
@@ -53,14 +64,6 @@ body {
    align-self: center;
    }
 
-   .footer-lista-modal {
-      list-style: none;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      margin: 15px;
-   }
 .icono-cerrar {
    font-size: 34px;
    color: white;
@@ -149,9 +152,11 @@ h1 {
 }
 
 .titulo-index {
+   font-family: 'Montserrat', sans-serif;
    margin-top: 20px;
    margin-bottom: 20px;
    padding-top: 20px;
+   font-size: 28px;
 }
 
 .parrafo-inicio {
@@ -205,12 +210,15 @@ h1 {
 }
 
 .titulo-nosotros {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 24px;
    text-align: center;
    margin-top: 20px;
    margin-bottom: 10px;
 }
 
 .parrafo-nosotros {
+   font-family: 'Montserrat', sans-serif;
    text-align: center;
    padding: 20px;
    margin-bottom: 20px;
@@ -276,6 +284,7 @@ h1 {
 }
 
 .subtitulo-productos {
+   font-family: 'Montserrat', sans-serif;
    margin-bottom: 10px;
 }
 
@@ -326,6 +335,7 @@ ul {
 }
 
 .titulo-visitas {
+   font-family: 'Montserrat', sans-serif;
    margin-bottom: 15px;
 }
 
@@ -365,6 +375,8 @@ ul {
    padding: 20px;
 }
 .titulo2-contacto {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 28px;
    margin-bottom: 20px;
    text-align: left;
    justify-content: left;
@@ -372,6 +384,8 @@ ul {
    padding-right: 30px;
 }
 .titulo-contacto {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 28px;
    margin-top: 20px;
    margin-bottom: 10px;
    text-align: left;
@@ -641,7 +655,6 @@ ul {
 .enviar {
 padding-left: 10px;
 }
-
 .icono-boton-contacto {
    width: 20px;
    height: 20px;
