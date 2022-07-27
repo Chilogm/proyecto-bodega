@@ -53,11 +53,30 @@
         </nav>
     </header>
     <main class="main-index">
+                
         <section class="section">
-            <div class="grid">
-                <div class="grid-hijo grid-hijo-1">
-                    <img class=".grid-imagen" src="./imagenes/bodega.png" alt="Foto corcho zaina">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/bodega.png" class="d-block w-100 imagen-grande-index" alt="Foto corcho">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/bodega2 copia.png" class="d-block w-100 imagen-grande-index" alt="Enamorados">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/bodega3.png" class="d-block w-100 imagen-grande-index" alt="copa">
+                  </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="grid">
                 <div class="grid-hijo grid-hijo-2">
                     <img class=".grid-imagen" src="./imagenes/familia.png" alt="familia">
                 </div>
@@ -71,7 +90,6 @@
                     <img class=".grid-imagen" src="./imagenes/Tacho.png" alt="Tacho y copa">
                 </div>
             </div>
-
             <div>
                 <h1 class="titulo-index">
                     Bodega Familia Zaina
@@ -92,42 +110,6 @@
                 target="_blank">
                 <img src="./imagenes/wpp color.png" alt="whatsapp" width="50" height="50">
             </a>
-        </div>
-        <!-- Button trigger modal -->
-        <div>
-            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Novedades</button>
-        </div>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel"> Enterate de todo</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        ¿Ya nos seguis en Instagram?
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
-                            <nav>
-                                <ul class="lista-modal">
-                                    <li> Seguinos:
-                                    </li>
-                                    <li>
-                                        <a class="redes-modal" title="Instagram"
-                                            href="https://www.instagram.com/familiazaina" target="_blank"><img
-                                                class="seguir-modal" src="./imagenes/instagram copia.png"
-                                                alt="Logo Instagram" /></a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </button>
-
-                    </div>
-                </div>
-            </div>
         </div>
     </main>
     <footer class="footer">

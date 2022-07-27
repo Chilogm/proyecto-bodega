@@ -6,6 +6,10 @@
 
 }
 
+main {
+   min-height: 100vh;
+}
+
 body {
    font-family: 'Montserrat', sans-serif;
    min-height: 100vh;
@@ -28,10 +32,12 @@ body {
    align-items: center;
    padding: 1rem
 }
+
 .logo-header {
    width: 130px;
    height: 100px;
 }
+
 .icono-menu {
    font-size: 34px;
    color: white;
@@ -42,6 +48,7 @@ body {
 h2 {
    font-family: 'Montserrat', sans-serif;
 }
+
 .lista-modal {
    list-style: none;
    display: flex;
@@ -50,6 +57,7 @@ h2 {
    justify-content: center;
    margin: 15px;
 }
+
 .redes-modal {
    padding: 8%;
    margin: 10px;
@@ -57,12 +65,13 @@ h2 {
    height: 10px;
    justify-content: space-around;
 }
+
 .seguir-modal {
    width: 15px;
    height: 15px;
    justify-self: space-around;
    align-self: center;
-   }
+}
 
 .icono-cerrar {
    font-size: 34px;
@@ -72,6 +81,7 @@ h2 {
 }
 
 .nav-lista {
+   text-decoration: none;
    list-style: none;
    display: flex;
    flex-direction: row;
@@ -101,16 +111,22 @@ h1 {
 .main-index {
    margin-top: 70px;
 }
+
+.imagen-grande-index {
+   margin-bottom: 10px;
+   max-height: 1000px;
+   max-width: 1400;
+}
+
 .grid {
    display: grid;
-   padding: 0,5rem;
+   padding: 0, 5rem;
    max-height: 1000px;
    max-width: 1500px;
    grid-template-columns: repeat(4, 354px);
-   grid-template-rows: 890px 230px;
-   grid-template-areas: 
-   "imagen-1 imagen-1 imagen-1 imagen-1" 
-   "imagen-2 imagen-3 imagen-4 imagen-5";
+   grid-template-rows: 230px;
+   grid-template-areas:
+      "imagen-2 imagen-3 imagen-4 imagen-5";
    justify-content: space-between;
    align-content: center;
 }
@@ -119,11 +135,6 @@ h1 {
    border: rgb(53, 1, 53);
    overflow: hidden;
    position: relative;
-   margin-bottom: 40px;
-}
-
-.grid-hijo-1 {
-   grid-area: imagen-1;
    margin-bottom: 10px;
 }
 
@@ -136,10 +147,12 @@ h1 {
    grid-area: imagen-3;
    border-radius: 10px;
 }
+
 .grid-hijo-4 {
    grid-area: imagen-4;
    border-radius: 10px;
 }
+
 .grid-hijo-5 {
    grid-area: imagen-5;
    border-radius: 10px;
@@ -166,13 +179,14 @@ h1 {
    font-style: italic;
    margin-block-end: 30px;
 }
+
 .footer {
    background-color: black;
    color: rgb(255, 255, 255);
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 0,4rem;
+   padding: 0, 4rem;
    font-style: italic;
    font-size: 10px;
    width: 100%;
@@ -181,6 +195,7 @@ h1 {
    height: 10%;
    bottom: 0%;
 }
+
 .footer-lista {
    list-style: none;
    display: flex;
@@ -209,6 +224,10 @@ h1 {
    height: 20px;
 }
 
+.main-nosotros {
+   margin-top: 100px;
+}
+
 .titulo-nosotros {
    font-family: 'Montserrat', sans-serif;
    font-size: 24px;
@@ -224,9 +243,25 @@ h1 {
    margin-bottom: 20px;
    font-style: italic;
 }
-.imagen-nosotros {
+
+.tarjeta {
+   border-radius: 20px;
+   border-color: rgb(53, 1, 53);
+   text-align: center;
    width: 100%;
-   height: 100%;
+   padding: 5px;
+   margin: 10px;
+}
+
+.imagen-nosotros {
+   width: 99%;
+   height: 98%;
+   border-radius: 30px;
+   overflow: hidden;
+justify-items: center;
+align-items: center;
+   margin: 10px;
+   padding: 10px;
 }
 
 .main-productos {
@@ -276,6 +311,31 @@ h1 {
    margin-top: 10px;
 }
 
+.boton-derecha-productos {
+   text-decoration: none;
+   font-weight: 200;
+   font-size: 18px;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   background-color: rgb(53, 1, 53);
+   padding: 10px;
+   border-radius: 10px;
+   position: fixed;
+   left: 2rem;
+   bottom: 2rem;
+}
+
+.boton-derecha-enviar {
+   text-decoration: none;
+   font-weight: 200;
+   font-size: 20px;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   background-color: rgb(53, 1, 53);
+   padding: 10px;
+   border-radius: 10px;
+}
+
 .parrafo-productos {
    font-weight: normal;
    text-align: justify;
@@ -319,6 +379,7 @@ ul {
    padding-top: 20px;
    margin-top: 30px;
 }
+
 .imagen-visitas {
    border-radius: 10px;
    overflow: hidden;
@@ -332,6 +393,7 @@ ul {
    align-items: left;
    flex-direction: column;
    margin: 5px;
+   border-radius: 10px;
 }
 
 .titulo-visitas {
@@ -364,6 +426,7 @@ ul {
    margin: 10px;
    padding: 20px;
 }
+
 .contacto-derecha {
    width: 50%;
    height: 100%;
@@ -374,6 +437,7 @@ ul {
    margin: 10px;
    padding: 20px;
 }
+
 .titulo2-contacto {
    font-family: 'Montserrat', sans-serif;
    font-size: 28px;
@@ -383,6 +447,7 @@ ul {
    margin-top: 20px;
    padding-right: 30px;
 }
+
 .titulo-contacto {
    font-family: 'Montserrat', sans-serif;
    font-size: 28px;
@@ -391,6 +456,7 @@ ul {
    text-align: left;
    padding-bottom: 10px;
 }
+
 .contacto-izquierda-dos {
    margin-top: 15px;
    line-height: 10px;
@@ -411,9 +477,11 @@ ul {
    padding: 10px;
    border-radius: 10px;
 }
+
 .enviar {
    justify-content: flex-end;
 }
+
 .boton-derecha {
    text-decoration: none;
    font-weight: 200;
@@ -431,10 +499,15 @@ ul {
    bottom: 2rem;
 }
 
+::placeholder {
+   color: rgb(53, 1, 53);
+}
+
 @media screen and (max-width: 599px) {
    .nav {
       display: none;
    }
+
    .icono-menu {
       display: block;
    }
@@ -450,6 +523,7 @@ ul {
       width: 70%;
       height: 70%;
    }
+
    .nav-lista {
       flex-direction: column;
       padding-right: 30px;
@@ -457,75 +531,95 @@ ul {
       justify-content: center;
       gap: 30px;
    }
+
    .icono-cerrar {
       display: block;
    }
+
    .logo-header {
       width: 65px;
       height: 50px;
    }
+
+   .imagen-grande-index {
+      justify-items: center;
+      width: 354px;
+      max-height: 500px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      align-items: center;
+   }
+
    .grid {
       display: grid;
-      padding: 0,3rem;
       grid-template-columns: 400px;
-      grid-template-rows: repeat(5,280px);
-      grid-template-areas: 
-      "imagen-1"
-      "imagen-2"
-      "imagen-3"
-      "imagen-4"
-      "imagen-5";
-      gap: 10px;
+      grid-template-rows: repeat(5, 280px);
+      grid-template-areas:
+         "imagen-2"
+         "imagen-3"
+         "imagen-4"
+         "imagen-5";
       border-radius: 10px;
-      margin-top: 300px;
+      margin-top: 100px;
       justify-content: center;
-      margin-bottom: 200px;
+      align-content: center;
+      margin-bottom: 0%;
    }
-   .grid-hijo-1 {
-      max-width: 354px;
+
+   .grid-hijo {
+      max-width: 500px;
       max-height: 500px;
    }
+
    .titulo-index {
       font-size: 16px;
-      margin-top: 7rem;
    }
+
    .parrafo-inicio {
       font-size: 12px;
    }
+
    .logo-footer {
       width: 70px;
       height: 50px;
    }
+
    .redes-footer {
-      width: 10%;
-      height: 10%;
+      width: 5%;
+      height: 5%;
    }
+
    .imagen-grande {
       justify-items: center;
       width: 100%;
       height: 100%;
       border-radius: 10px;
    }
+
    .titulo-nosotros {
-      font-size: 16px;
-      margin-top: 1rem;
+      font-size: 20px;
+      margin-top: 0.5rem;
       text-align: center;
    }
+
    .parrafo-nosotros {
       font-size: 12px;
       text-align: center;
    }
+
    .titulo-productos {
-      font-size: 16px;
-      margin-top: 1rem;
+      font-size: 20px;
+      margin-top: 0.5rem;
       text-align: center;
    }
+
    .Productos {
       display: flex;
       flex-direction: column;
       padding: 10px;
       margin: 10px;
    }
+
    .producto-izquierda {
       width: 100%;
       height: 100%;
@@ -536,9 +630,8 @@ ul {
       margin: 10px;
       padding: 10px;
       line-height: 20px;
-      margin-left: 10px;
-      margin-top: 10px;
    }
+
    .producto-derecha {
       width: 100%;
       height: 100%;
@@ -553,25 +646,28 @@ ul {
    }
 
    .subtitulo-productos {
-      font-size: 14px;
+      font-size: 16px;
       margin-top: 1rem;
       text-align: center;
       margin-bottom: 5px;
    }
+
    .span-productos {
       line-height: 12px;
-      font-size: 12px;
+      font-size: 14px;
       margin-bottom: 10px;
       text-align: center;
       font-style: italic;
 
    }
+
    .parrafo-productos {
       font-weight: normal;
       text-align: left;
       line-height: 20px;
       font-style: normal;
    }
+
    .visitas {
       display: flex;
       flex-direction: column;
@@ -580,7 +676,7 @@ ul {
       padding: 10px;
       margin: 10px;
    }
-   
+
    .visitas-derecha {
       width: 100%;
       height: 100%;
@@ -594,7 +690,7 @@ ul {
       border: 2px;
       margin-top: 50px;
    }
-   
+
    .visitas-izquierda {
       width: 100%;
       height: 100%;
@@ -608,59 +704,69 @@ ul {
       margin-left: 10px;
       margin-top: 50px;
    }
+
    .titulo-visitas {
       margin-bottom: 10px;
    }
-   
+
    .parrafo-visitas {
       font-weight: normal;
       text-align: center;
       line-height: 25px;
       font-style: normal;
    }
-   
+
    .imagen-visitas {
       padding-top: 30px;
       max-width: 599px;
    }
-.contacto {
-   display: flex;
-   flex-direction: column;
-}
-.titulo-contacto {
-   font-size: 16px;
-   margin-top: 1rem;
-   text-align: left;
-}
-.boton-izquierda {
-   text-decoration: none;
-   font-weight: 100;
-   font-size: 10px;
-   font-family: 'Montserrat', sans-serif;
-   color: white;
-   background-color: rgb(53, 1, 53);
-   padding: 6px;
-   border-radius: 6px;
-}
-.boton-derecha {
-   text-decoration: none;
-   font-weight: 10;
-   font-size: 10px;
-   font-family: 'Montserrat', sans-serif;
-   color: white;
-   background-color: rgb(53, 1, 53);
-   padding: 6px;
-   border-radius: 6px;
-}
-.enviar {
-padding-left: 10px;
-}
-.icono-boton-contacto {
-   width: 20px;
-   height: 20px;
-}
-.ubicacion {
-   max-width: 500px;
-   max-height: 100vh;
-}
+
+   .contacto {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .titulo-contacto {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 1rem;
+      text-align: left;
+   }
+
+   .boton-izquierda {
+      text-decoration: none;
+      font-weight: 100;
+      font-size: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      background-color: rgb(53, 1, 53);
+      padding: 6px;
+      border-radius: 6px;
+   }
+
+   .boton-derecha {
+      text-decoration: none;
+      font-weight: 10;
+      font-size: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      background-color: rgb(53, 1, 53);
+      padding: 6px;
+      border-radius: 6px;
+   }
+
+   .enviar {
+      padding-left: 10px;
+   }
+
+   .icono-boton-contacto {
+      width: 20px;
+      height: 20px;
+   }
+
+   .ubicacion {
+      max-width: 500px;
+      max-height: 100vh;
+   }
 }
