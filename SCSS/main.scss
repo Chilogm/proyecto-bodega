@@ -1,13 +1,14 @@
+@import "./parciales/variables";
 @import "./parciales/base";
-@import "parciales/header";
-@import "parciales/footer";
-@import "parciales/inicio";
-@import "parciales/nosotros";
-@import "parciales/productos";
-@import "parciales/visitas";
-@import "parciales/contacto";
-@import "parciales/extras";
-@import "parciales/media-querys";
+@import "./parciales/header";
+@import "./parciales/footer";
+@import "./parciales/inicio";
+@import "./parciales/nosotros";
+@import "./parciales/productos";
+@import "./parciales/visitas";
+@import "./parciales/contacto";
+@import "./parciales/extras";
+@import "./parciales/media-querys";
 
  
 //  .lista-modal {
@@ -33,5 +34,3 @@
 //     justify-self: space-around;
 //     align-self: center;
 //  }
-
- 

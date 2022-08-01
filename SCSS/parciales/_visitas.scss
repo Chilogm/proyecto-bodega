@@ -7,22 +7,20 @@
  }
  
  .titulo-visitas {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: $sizeTitulo;
     text-align: center;
     font-weight: bold;
-    color: rgb(53, 1, 53);
+    color: $colorPrincipal;
     margin: 10px;
  }
  
  .linea-visitas {
-    border-top: 2px solid rgb(53, 1, 53);
+    border-top: 2px solid $colorPrincipal;
     height: 2px;
     width: 300px;
     padding: 0;
     margin-bottom: 6px;
     margin-top: 10px;
- 
  }
  
  .visitas-derecha {
@@ -67,9 +65,9 @@
  }
  .titulo-visitas1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: $sizeTitulomenor;
     font-weight: bold;
-    color: rgb(53, 1, 53);
+    color: $colorPrincipal;
     margin: 10px;
  text-align: center;
  }
@@ -92,13 +90,14 @@
     -webkit-transform:scale(1.1);
     transform:scale(1.1)
     }
+
  .boton-reserva {
     text-decoration: none;
     font-weight: 200;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    background-color: rgb(53, 1, 53);
+    background-color: $colorPrincipal;
     padding: 10px;
     border-radius: 10px;
     position: fixed;

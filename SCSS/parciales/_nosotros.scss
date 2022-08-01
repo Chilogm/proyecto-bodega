@@ -1,48 +1,47 @@
 .titulo-nosotros {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
- }
- 
- .parrafo-nosotros {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-    font-style: italic;
- }
- 
- .tarjeta {
-    border-radius: 20px;
-    border-color: rgb(53, 1, 53);
-    text-align: center;
-    width: 100%;
-    padding: 5px;
-    margin: 10px;
- }
- 
- .caja {
-    font-weight: 400;
-    text-align: center;
-    margin: 0 0 25px;
-    overflow: hidden;
-    padding: 20px;
-    border-radius: 35px 0px 35px 0px;
-    -moz-border-radius: 35px 0px 35px 0px;
-    -webkit-border-radius: 35px 0px 35px 0px;
-    border: 2px solid rgb(53, 1, 53);
-    ;
- }
- 
- .imagen-nosotros {
-    width: 99%;
-    height: 98%;
-    border-radius: 30px;
-    overflow: hidden;
-    justify-items: center;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
- }
+   font-size: $sizeTitulo;
+   text-align: center;
+   color: $colorPrincipal;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+.parrafo-nosotros {
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 20px;
+   font-style: italic;
+}
+
+.tarjeta {
+   border-radius: 20px;
+   border-color: $colorPrincipal;
+   text-align: center;
+   width: 100%;
+   padding: 5px;
+   margin: 10px;
+}
+
+.caja {
+   font-weight: 400;
+   text-align: center;
+   margin: 0 0 25px;
+   overflow: hidden;
+   padding: 20px;
+   border-radius: 35px 0px 35px 0px;
+   -moz-border-radius: 35px 0px 35px 0px;
+   -webkit-border-radius: 35px 0px 35px 0px;
+   border: 2px solid $colorPrincipal;
+   ;
+}
+
+.imagen-nosotros {
+   width: 99%;
+   height: 98%;
+   border-radius: 30px;
+   overflow: hidden;
+   justify-items: center;
+   align-items: center;
+   margin: 10px;
+   padding: 10px;
+}
