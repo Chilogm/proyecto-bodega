@@ -1,0 +1,136 @@
+
+ .Productos {
+    display: flex;
+    height: 150%;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+ }
+ .titulo-productos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(53, 1, 53);
+    margin: 10px;
+ }
+ 
+ .linea-productos {
+    border-top: 2px solid rgb(53, 1, 53);
+    height: 2px;
+    max-width: 400px;
+    padding: 0;
+    left: 0%;
+    margin-bottom: 6px;
+    margin-top: 10px;
+ }
+ 
+ .parrafo-productos {
+    font-weight: normal;
+    text-align: justify;
+    line-height: 25px;
+    font-style: normal;
+ }
+ 
+ .subtitulo-productos {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+ }
+ 
+ .span-productos {
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-style: italic;
+ }
+ 
+ .producto-izquierda {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    line-height: 20px;
+    margin-left: 30px;
+    margin-top: 45px;
+ }
+ 
+ .producto-derecha {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px;
+    margin-top: 10px;
+    position: relative;
+ }
+
+ .precio {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgb(53, 1, 53);
+    color: white;
+    font-size: 20px;
+    font-style: inherit;
+    font-stretch: expanded;
+    font-weight: 500;
+    font-display: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+ }
+
+ .envio-gratis {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: rgb(53, 1, 53);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+ }
+
+ .boton-derecha-productos {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgb(53, 1, 53);
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    left: 2rem;
+    bottom: 2rem;  
+ }
+ 
+ .boton-derecha-productos:hover {
+    padding: 2rem;
+    color: white;
+ }
+ 
+ .boton-derecha-enviar {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgb(53, 1, 53);
+    padding: 10px;
+    border-radius: 10px;
+ }
+ 
+ 
+ ul {
+    text-decoration: none;
+    list-style: none;
+ }

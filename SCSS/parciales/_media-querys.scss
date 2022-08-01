@@ -1,0 +1,307 @@
+@media screen and (max-width: 599px) {
+    .nav {
+       display: none;
+    }
+ 
+    .icono-menu {
+       display: block;
+    }
+ 
+    .nav:target {
+       display: block;
+       background-color: rgb(0, 0, 0);
+       color: white;
+       position: fixed;
+       z-index: 10000;
+       right: 0%;
+       top: 0%;
+       width: 70%;
+       height: 70%;
+    }
+ 
+    .nav-lista {
+       flex-direction: column;
+       padding-right: 30px;
+       height: 100%;
+       justify-content: center;
+       gap: 30px;
+    }
+ 
+    .icono-cerrar {
+       display: block;
+    }
+ 
+    .logo-header {
+       width: 65px;
+       height: 50px;
+    }
+ 
+    .logo-footer {
+    width: 12px;
+    height: 12px;
+    align-self: center;
+    }
+ 
+    .logo-zaina {
+       width: 70px;
+       height: 50px;
+    }
+    
+    .titulo-index1 {
+       font-size: 20px;
+    }
+    .imagen-grande-index {
+       justify-items: center;
+       width: 354px;
+       max-height: 500px;
+       border-radius: 10px;
+       align-items: center;
+       margin-bottom: 10px;
+    }
+ 
+    .titulo-index {
+       font-size: 16px;
+    }
+ 
+    .parrafo-inicio {
+       font-size: 12px;
+       margin-bottom: 240px;
+    }
+ 
+    .grid {
+       display: grid;
+       grid-template-columns: 400px;
+       grid-template-rows: repeat(5, 280px);
+       grid-template-areas:
+          "imagen-2"
+          "imagen-3"
+          "imagen-4"
+          "imagen-5";
+       border-radius: 10px;
+       margin-top: 100px;
+       justify-content: center;
+       align-content: center;
+       margin-bottom: 0%;
+    }
+ 
+    .grid-hijo {
+       max-width: 500px;
+       max-height: 500px;
+    }
+ 
+    .imagen-grande {
+       justify-items: center;
+       width: 100%;
+       height: 100%;
+       border-radius: 10px;
+    }
+ 
+    .titulo-nosotros {
+       font-size: 20px;
+       margin-top: 0.5rem;
+       text-align: center;
+    }
+ 
+    .parrafo-nosotros {
+       font-size: 12px;
+       text-align: center;
+    }
+ 
+    .titulo-productos {
+       font-size: 20px;
+       margin-top: 0.5rem;
+       text-align: center;
+    }
+ 
+    .Productos {
+       display: flex;
+       flex-direction: column;
+       padding: 10px;
+       /* margin: 10px; */
+       justify-content: center;
+    }
+ 
+    .producto-izquierda {
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       margin: 10px;
+       padding: 10px;
+       line-height: 20px;
+    }
+ 
+    .producto-derecha {
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       align-items: center;
+       border-radius: 10px;
+       overflow: hidden;
+       border: 2px;
+    }
+ 
+    .subtitulo-productos {
+       font-size: 16px;
+       margin-top: 1rem;
+       text-align: center;
+       margin-bottom: 5px;
+    }
+ 
+    .span-productos {
+       line-height: 12px;
+       font-size: 14px;
+       margin-bottom: 10px;
+       text-align: center;
+       font-style: italic;
+ 
+    }
+ 
+    .parrafo-productos {
+       font-weight: normal;
+       text-align: left;
+       line-height: 20px;
+       font-style: normal;
+    }
+ 
+    .visitas {
+       display: flex;
+       flex-direction: column;
+       min-width: 500px;
+       /* height: 150%;
+       padding: 10px;
+       margin: 10px; */
+    }
+ 
+    .titulo-visitas {
+       font-size: 20px;
+       margin-top: 0.5rem;
+       text-align: center;
+    }
+ 
+    .titulo-visitas1 {
+       font-family: 'Montserrat', sans-serif;
+       font-weight: bold;
+       font-size: 18px;
+       margin-top: 1rem;
+       text-align: left;
+       color: black;
+    }
+ 
+    .visitas-derecha {
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       align-items: center;
+       border-radius: 10px;
+       overflow: hidden;
+       border: 2px;
+       /* margin-top: 50px; */
+    }
+ 
+    .visitas-izquierda {
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       line-height: 20px;
+       /* margin-top: 50px; */
+    }
+ 
+    .visitas-derecha1 {
+       width: 100%;
+       height: 150%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       align-items: center;
+       border-radius: 10px;
+       overflow: hidden;
+       border: 2px;
+       /* margin-top: 50px; */
+    }
+ 
+    .visitas-izquierda1 {
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       line-height: 20px;
+    }
+ 
+    .parrafo-visitas {
+       font-weight: normal;
+       text-align: center;
+       line-height: 25px;
+       font-style: normal;
+    }
+ 
+    .imagen-visitas {
+       /* padding-top: 30px; */
+       max-width: 599px;
+       height: 100%;
+       justify-content: center;
+    }
+ 
+    .contacto {
+       display: flex;
+       flex-direction: column;
+    }
+ 
+    .titulo-contacto {
+       font-family: 'Montserrat', sans-serif;
+       font-weight: bold;
+       font-size: 18px;
+       margin-top: 1rem;
+       text-align: left;
+    }
+ 
+    .boton-izquierda {
+       text-decoration: none;
+       font-weight: 100;
+       font-size: 10px;
+       font-family: 'Montserrat', sans-serif;
+       color: white;
+       background-color: rgb(53, 1, 53);
+       padding: 6px;
+       border-radius: 6px;
+    }
+ 
+    .boton-derecha {
+       text-decoration: none;
+       font-weight: 10;
+       font-size: 10px;
+       font-family: 'Montserrat', sans-serif;
+       color: white;
+       background-color: rgb(53, 1, 53);
+       padding: 6px;
+       border-radius: 6px;
+    }
+ 
+    .enviar {
+       padding-left: 10px;
+    }
+ 
+    .icono-boton-contacto {
+       width: 20px;
+       height: 20px;
+    }
+ 
+    .ubicacion {
+       max-width: 500px;
+       max-height: 100vh;
+    }
+ }

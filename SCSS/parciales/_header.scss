@@ -1,0 +1,56 @@
+.header {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    font-weight: bolder;
+    height: 10%;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+ }
+ 
+ .logo-header {
+    width: 130px;
+    height: 100px;
+ }
+
+ .icono-menu {
+    font-size: 34px;
+    color: white;
+    text-decoration: none;
+    display: none;
+ }
+
+ .icono-cerrar {
+    font-size: 34px;
+    color: white;
+    text-decoration: none;
+    display: none;
+ }
+
+ .nav-lista {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0%;
+    margin-bottom: 0%;
+ }
+ 
+ .nav-item {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+ }
+ 
+ .flexbox {
+    display: flex;
+ }
