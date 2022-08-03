@@ -4,18 +4,6 @@
    max-width: 1400;
 }
 
-
-.titulo-index {
-   font-family: 'Montserrat', sans-serif;
-   // margin-top: 20px;
-   // margin-bottom: 20px;
-   // padding-top: 50px;
-   font-size: $sizeTitulo;
-   color: $colorPrincipal;
-   text-align: center;
-   font-weight: bold;
-}
-
 .parrafo-index {
    margin-bottom: 20px;
    margin: 20px;
@@ -88,4 +76,15 @@
       -moz-border-radius: 35px 0px 35px 0px;
       -webkit-border-radius: 35px 0px 35px 0px;
       border: 2px solid rgb(53, 1, 53);
+      font-weight: bold;
+   }
+   .titulo-index {
+      font-family: 'Montserrat', sans-serif;
+      // margin-top: 20px;
+      // margin-bottom: 20px;
+      // padding-top: 50px;
+      font-size: $sizeTitulo;
+      color: $colorPrincipal;
+      text-align: center;
+      font-weight: bold;
    }

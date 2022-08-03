@@ -9,7 +9,6 @@ main {
   margin-top: 100px; }
 
 body {
-  font-family: 'Montserrat', sans-serif;
   min-height: 100vh; }
 
 .header {
@@ -107,13 +106,6 @@ body {
   max-height: 1000px;
   max-width: 1400; }
 
-.titulo-index {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  color: #350135;
-  text-align: center;
-  font-weight: bold; }
-
 .parrafo-index {
   margin-bottom: 20px;
   margin: 20px;
@@ -175,7 +167,15 @@ body {
   border-radius: 35px 0px 35px 0px;
   -moz-border-radius: 35px 0px 35px 0px;
   -webkit-border-radius: 35px 0px 35px 0px;
-  border: 2px solid #350135; }
+  border: 2px solid #350135;
+  font-weight: bold; }
+
+.titulo-index {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #350135;
+  text-align: center;
+  font-weight: bold; }
 
 .titulo-nosotros {
   font-size: 30px;
