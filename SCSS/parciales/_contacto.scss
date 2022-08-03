@@ -11,9 +11,11 @@
    font-family: 'Montserrat', sans-serif;
    font-size: $sizeTitulo;
    margin-bottom: 10px;
-   text-align: left;
    padding-bottom: 10px;
    color: $colorPrincipal;
+   margin: 10px;
+   text-align: center;
+   font-weight: bold;
 }
 
 .caja-contacto {
