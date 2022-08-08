@@ -110,11 +110,13 @@
     position: fixed;
     left: 2rem;
     bottom: 2rem;  
+  transition: all 1s;
  }
  
  .boton-derecha-productos:hover {
     padding: 2rem;
     color: white;
+    transform: rotate(45);
  }
  
  .boton-derecha-enviar {

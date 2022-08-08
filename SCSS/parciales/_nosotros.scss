@@ -5,11 +5,19 @@
    margin-top: 20px;
    margin-bottom: 10px;
 }
-
-.parrafo-nosotros {
+.nosotros-titulo {
+   font-size: $sizeTitulo;
    text-align: center;
-   padding: 20px;
+   font-weight: bold;
+   color: $colorPrincipal;
+   margin: 10px;
+   padding: 10px;
+}
+.nosotros-parrafo {
+   text-align: center;
+   padding: 30px;
    margin-bottom: 20px;
+   margin-left: 20px;
    font-style: italic;
 }
 
@@ -23,9 +31,11 @@
 }
 
 .caja {
-   font-weight: 400;
+   font-weight: 400px;
+   max-width: 1500px;
    text-align: center;
-   margin: 0 0 25px;
+   justify-content: center;
+   margin: 10px;
    overflow: hidden;
    padding: 20px;
    border-radius: 35px 0px 35px 0px;
@@ -35,13 +45,23 @@
    ;
 }
 
-.imagen-nosotros {
-   width: 99%;
-   height: 98%;
+.nosotros-imagen {
+   width: 40%;
+   height: 40%;
    border-radius: 30px;
    overflow: hidden;
    justify-items: center;
    align-items: center;
+   margin: 10px;
+   padding: 10px;
+}
+
+.nosotros-titulo1 {
+   font-size: $sizeTitulo;
+   text-align: center;
+   font-style: oblique;
+   font-weight: bold;
+   color: $colorPrincipal;
    margin: 10px;
    padding: 10px;
 }

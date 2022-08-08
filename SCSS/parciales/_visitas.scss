@@ -1,7 +1,7 @@
 .visitas {
     display: flex;
     min-width: 500px;
-    height: 150%;
+    max-height: 100%;
     padding: 10px;
     margin: 10px;
  }
@@ -13,7 +13,13 @@
     color: $colorPrincipal;
     margin: 10px;
  }
- 
+ .visitas-parrafo {
+   margin-bottom: 20px;
+   margin: 20px;
+   text-align: center;
+   font-style: italic;
+   margin-block-end: 30px;
+}
  .linea-visitas {
     border-top: 2px solid $colorPrincipal;
     height: 2px;
@@ -32,7 +38,7 @@
     flex-direction: column;
     margin: 10px;
     padding-top: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
  }
  .visitas-izquierda {
     width: 50%;
@@ -50,8 +56,7 @@
     display: flex;
     flex-direction: column;
     margin: 10px;
-    padding-top: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
  }
  
  .visitas-izquierda1 {
@@ -60,36 +65,28 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 5px;
+    margin-top: 10px;
     border-radius: 10px;
  }
  .titulo-visitas1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: $sizeTitulomenor;
-    font-weight: bold;
-    color: $colorPrincipal;
-    margin: 10px;
- text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-size: $sizeTitulomenor;
+   font-weight: bold;
+   color: $colorPrincipal;
+   margin: 10px;
+   text-align: center;
  }
- 
- .parrafo-visitas {
-    font-weight: normal;
-    text-align: justify;
-    line-height: 25px;
-    font-style: normal;
-   text-align: left;
- }
+
  .imagen-visitas {
-    margin-top: 10px;
-    border-radius: 20px;
-    padding-top: 20px;
+   margin-top: 0;
+   border-radius: 20px;
    overflow: hidden;
  }
  
- .imagen-visitas:hover {
-    -webkit-transform:scale(1.1);
-    transform:scale(1.1)
-    }
+//  .imagen-visitas:hover {
+//     -webkit-transform:scale(1.1);
+//     transform:scale(1.1)
+//     }
 
  .boton-reserva {
     text-decoration: none;
@@ -103,9 +100,11 @@
     position: fixed;
     left: 2rem;
     bottom: 2rem;
+    transition: all 1s
  }
  
  .boton-reserva:hover {
     padding: 2rem;
     color: white;
+    transform: rotate(45);
  }
