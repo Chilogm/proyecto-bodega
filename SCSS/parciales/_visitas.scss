@@ -6,7 +6,7 @@
     margin: 10px;
  }
  
- .titulo-visitas {
+ .visitas-titulo {
     font-size: $sizeTitulo;
     text-align: center;
     font-weight: bold;
@@ -20,7 +20,7 @@
    font-style: italic;
    margin-block-end: 30px;
 }
- .linea-visitas {
+ .visitas-linea {
     border-top: 2px solid $colorPrincipal;
     height: 2px;
     width: 300px;
@@ -68,7 +68,7 @@
     margin-top: 10px;
     border-radius: 10px;
  }
- .titulo-visitas1 {
+ .visitas1-titulo {
    font-family: 'Montserrat', sans-serif;
    font-size: $sizeTitulomenor;
    font-weight: bold;
@@ -77,7 +77,7 @@
    text-align: center;
  }
 
- .imagen-visitas {
+ .visitas-imagen {
    margin-top: 0;
    border-radius: 20px;
    overflow: hidden;
