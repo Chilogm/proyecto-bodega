@@ -20,6 +20,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-left: 10px;
  }
  
  .logo-zaina {
@@ -35,12 +36,14 @@
  }
  
  .redes-footer {
-    padding: 8%;
-    margin: 10px;
-    margin-left: 1rem;
+ margin: 10px;
+ }
+
+ .logo-footer {
+width: 20px;
+height: 20px;
+justify-items: center;
+align-items: center;
+margin-top: 5px;
  }
  
- .logo-footer {
-    width: 20px;
-    height: 20px;
- }

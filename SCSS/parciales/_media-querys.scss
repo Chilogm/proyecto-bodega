@@ -10,13 +10,15 @@
     .nav:target {
        display: block;
        background-color: rgb(0, 0, 0);
+       filter:alpha(opacity=70);
+-moz-opacity:.70;opacity: 0.95;
        color: white;
        position: fixed;
        z-index: 10000;
        right: 0%;
        top: 0%;
-       width: 70%;
-       height: 70%;
+       width: 40%;
+       height: 60%;
     }
  
     .nav-lista {
@@ -25,6 +27,7 @@
        height: 100%;
        justify-content: center;
        gap: 30px;
+       margin-top: 20px;
     }
  
     .icono-cerrar {
@@ -82,29 +85,10 @@
     }
  
     .grid {
-       display: flex;
+       display: none;
        flex-direction: column;
        align-items: center;
        justify-content: center;}
-   //     grid-template-columns: 400px;
-   //     grid-template-rows: repeat(5, 280px);
-   //     grid-template-areas:
-   //        "imagen-2"
-   //        "imagen-3"
-   //        "imagen-4"
-   //        "imagen-5";
-   //     border-radius: 10px;
-   //     margin-top: 100px;
-   //     justify-content: center;
-   //     align-content: center;
-   //     margin-bottom: 0%;
-   //     background-color: white;
-   //  }
- 
-   //  .grid-hijo {
-   //     max-width: 500px;
-   //     max-height: 300px;
-   //  }
 
     .titulo-nosotros {
        font-size: 20px;
@@ -128,7 +112,7 @@
        flex-direction: column;
        padding: 10px;
        /* margin: 10px; */
-       justify-content: center;
+      //  justify-content: center;
     }
  
     .producto-izquierda {
@@ -138,9 +122,10 @@
        justify-content: center;
        align-items: center;
        flex-direction: column;
-       margin: 10px;
-       padding: 10px;
+      //  margin: 10px;
+      //  padding: 10px;
        line-height: 20px;
+       margin: 0%;
     }
  
     .producto-derecha {
@@ -149,7 +134,7 @@
        display: flex;
        justify-content: center;
        align-items: center;
-       flex-direction: column;
+       flex-direction: row;
        align-items: center;
        border-radius: 10px;
        overflow: hidden;

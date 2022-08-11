@@ -16,19 +16,20 @@
 .nosotros-parrafo {
    text-align: center;
    padding: 30px;
-   margin-bottom: 20px;
+   // margin-bottom: 20px;
    margin-left: 20px;
    font-style: italic;
+   align-items: center;
 }
 
-.tarjeta {
-   border-radius: 20px;
-   border-color: $colorPrincipal;
-   text-align: center;
-   width: 100%;
-   padding: 5px;
-   margin: 10px;
-}
+// .tarjeta {
+//    border-radius: 20px;
+//    border-color: $colorPrincipal;
+//    text-align: center;
+//    width: 100%;
+//    padding: 5px;
+//    margin: 10px;
+// }
 
 .caja {
    font-weight: 400px;
@@ -46,14 +47,21 @@
 }
 
 .nosotros-imagen {
-   width: 40%;
-   height: 40%;
-   border-radius: 30px;
-   overflow: hidden;
-   justify-items: center;
-   align-items: center;
-   margin: 10px;
-   padding: 10px;
+   // border-radius: 300px;
+   // overflow: hidden;
+   // justify-items: center;
+   // align-items: center;
+   // margin: 10px;
+   // padding: 10px;
+   margin-left: 0%;
+   margin-right: 0%;
+   width: 700px;
+    height:300px;
+   //  border-radius:150px;
+   //  border-color: $colorPrincipal;
+   //  border-style: double;
+    justify-items: center;
+    border-radius: 8px;
 }
 
 .nosotros-titulo1 {
@@ -64,4 +72,46 @@
    color: $colorPrincipal;
    margin: 10px;
    padding: 10px;
+}
+// .caja-parrafos {
+//    border-radius: 35px 0px 35px 0px;
+// -moz-border-radius: 35px 0px 35px 0px;
+// -webkit-border-radius: 35px 0px 35px 0px;
+// border: 2px solid $colorPrincipal;
+// }
+// .caja-parrafos1 {
+//    border-radius: 0px 35px 0px 35px;
+// -moz-border-radius: 0px 35px 0px 35px;
+// -webkit-border-radius:0px 35px 0px 35px;
+// border: 2px solid $colorPrincipal;
+// }
+.nosotros {
+   display: flex;
+   min-width: 500px;
+   max-height: 100%;
+   padding: 10px;
+   margin: 10px;
+   justify-self: center;
+}
+
+.nosotros-derecha {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 10px;
+   padding-top: 20px;
+   margin-top: 10px;
+}
+
+.nosotros-izquierda {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 5px;
+   border-radius: 10px;
 }
