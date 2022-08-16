@@ -17,7 +17,7 @@
        z-index: 10000;
        right: 0%;
        top: 0%;
-       width: 60%;
+       width: 90%;
        height: 70%;
     }
  
@@ -104,6 +104,10 @@
     .nosotros {
       display: flex;
  flex-direction: column;
+    }
+
+    .nosotros2 {
+      display: none;
     }
 
     .nosotros-izquierda {
@@ -288,7 +292,15 @@
        margin-top: 1rem;
        text-align: left;
     }
- 
+ .ubicacion {
+   width: 300px;
+   height: 150px;
+ }
+
+ .mb-3 {
+   width: 300px;
+   height: 150px;
+ }
     .boton-izquierda {
        text-decoration: none;
        font-weight: 100;

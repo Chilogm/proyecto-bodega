@@ -46,15 +46,15 @@
    // padding: 10px;
    margin-left: 0%;
    margin-right: 0%;
-   width: 700px;
-    height:300px;
+   width: 550px;
+    height: 250px;
    //  border-radius:150px;
    //  border-color: $colorPrincipal;
    //  border-style: double;
     justify-items: center;
     border-radius: 8px;
-    width: 650px;
-    height: 300px;
+    width: 550px;
+    height: 250px;
 }
 
 .nosotros-titulo1 {
@@ -79,6 +79,15 @@
 // border: 2px solid $colorPrincipal;
 // }
 .nosotros {
+   display: flex;
+   min-width: 500px;
+   max-height: 100%;
+   padding: 10px;
+   margin: 10px;
+   justify-self: center;
+}
+
+.nosotros2 {
    display: flex;
    min-width: 500px;
    max-height: 100%;

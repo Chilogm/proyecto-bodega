@@ -262,12 +262,12 @@ body {
 .nosotros-imagen {
   margin-left: 0%;
   margin-right: 0%;
-  width: 700px;
-  height: 300px;
+  width: 550px;
+  height: 250px;
   justify-items: center;
   border-radius: 8px;
-  width: 650px;
-  height: 300px;
+  width: 550px;
+  height: 250px;
 }
 
 .nosotros-titulo1 {
@@ -281,6 +281,15 @@ body {
 }
 
 .nosotros {
+  display: flex;
+  min-width: 500px;
+  max-height: 100%;
+  padding: 10px;
+  margin: 10px;
+  justify-self: center;
+}
+
+.nosotros2 {
   display: flex;
   min-width: 500px;
   max-height: 100%;
@@ -535,8 +544,8 @@ ul {
   margin-top: 0;
   border-radius: 20px;
   overflow: hidden;
-  width: 650px;
-  height: 300px;
+  width: 550px;
+  height: 250px;
 }
 
 .boton-reserva {
@@ -653,6 +662,11 @@ ul {
   margin-bottom: 20px;
 }
 
+.ubicacion {
+  width: 500px;
+  height: 350px;
+}
+
 .enviar {
   justify-content: flex-end;
 }
@@ -757,7 +771,7 @@ ul {
     z-index: 10000;
     right: 0%;
     top: 0%;
-    width: 60%;
+    width: 90%;
     height: 70%;
   }
   .nav-lista {
@@ -832,6 +846,9 @@ ul {
   .nosotros {
     display: flex;
     flex-direction: column;
+  }
+  .nosotros2 {
+    display: none;
   }
   .nosotros-izquierda {
     width: 100%;
@@ -989,6 +1006,14 @@ ul {
     font-size: 18px;
     margin-top: 1rem;
     text-align: left;
+  }
+  .ubicacion {
+    width: 300px;
+    height: 150px;
+  }
+  .mb-3 {
+    width: 300px;
+    height: 150px;
   }
   .boton-izquierda {
     text-decoration: none;
