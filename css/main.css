@@ -237,12 +237,20 @@ body {
   padding: 10px;
 }
 
-.nosotros-parrafo {
+.nosotros-parrafo1 {
   text-align: center;
-  padding: 30px;
-  margin-left: 20px;
+  padding: 20px;
   font-style: italic;
   align-items: center;
+  justify-content: center;
+}
+
+.nosotros-parrafo2 {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
 }
 
 .caja {
@@ -262,12 +270,10 @@ body {
 .nosotros-imagen {
   margin-left: 0%;
   margin-right: 0%;
-  width: 550px;
-  height: 250px;
+  width: 80%;
+  height: 80%;
   justify-items: center;
   border-radius: 8px;
-  width: 550px;
-  height: 250px;
 }
 
 .nosotros-titulo1 {
@@ -287,15 +293,18 @@ body {
   padding: 10px;
   margin: 10px;
   justify-self: center;
+  align-items: center;
 }
 
 .nosotros2 {
   display: flex;
+  flex-direction: row-reverse;
   min-width: 500px;
   max-height: 100%;
   padding: 10px;
   margin: 10px;
   justify-self: center;
+  align-items: center;
 }
 
 .nosotros-derecha {
@@ -304,10 +313,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  margin: 10px;
-  padding-top: 20px;
-  margin-top: 10px;
 }
 
 .nosotros-izquierda {
@@ -465,7 +470,7 @@ ul {
   margin: 10px;
 }
 
-.visitas-titulo {
+.titulo-visita {
   font-size: 30px;
   text-align: center;
   font-weight: bold;
@@ -544,8 +549,6 @@ ul {
   margin-top: 0;
   border-radius: 20px;
   overflow: hidden;
-  width: 550px;
-  height: 250px;
 }
 
 .boton-reserva {
@@ -663,7 +666,7 @@ ul {
 }
 
 .ubicacion {
-  width: 500px;
+  width: 90%;
   height: 350px;
 }
 
@@ -771,7 +774,7 @@ ul {
     z-index: 10000;
     right: 0%;
     top: 0%;
-    width: 80%;
+    width: 60%;
     height: 70%;
   }
   .nav-lista {
@@ -788,6 +791,9 @@ ul {
   .logo-header {
     width: 65px;
     height: 50px;
+  }
+  .footer {
+    width: 100%;
   }
   .logo-footer {
     width: 15px;
@@ -822,7 +828,11 @@ ul {
     margin-bottom: 10px;
   }
   .titulo-index {
-    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 1rem;
+    text-align: left;
   }
   .parrafo-index {
     font-size: 12px;
@@ -834,20 +844,23 @@ ul {
     align-items: center;
     justify-content: center;
   }
-  .titulo-nosotros {
-    font-size: 20px;
-    margin-top: 0.5rem;
-    text-align: center;
+  .nosotros-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 1rem;
+    text-align: left;
   }
   .nosotros {
     display: flex;
     flex-direction: column;
+    max-width: 500px;
   }
   .nosotros2 {
     display: none;
   }
   .nosotros-izquierda {
-    width: 100%;
+    width: 65%;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -857,7 +870,7 @@ ul {
     line-height: 20px;
   }
   .nosotros-derecha {
-    width: 100%;
+    width: 65%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -868,11 +881,14 @@ ul {
     overflow: hidden;
   }
   .nosotros-parrafos {
+    width: 65%;
     font-weight: normal;
     text-align: center;
     line-height: 25px;
     font-style: normal;
     font-size: 12px;
+    margin-left: 5px;
+    max-width: 80%;
   }
   .nosotros-imagen {
     width: 350px;
@@ -880,9 +896,11 @@ ul {
     justify-content: center;
   }
   .titulo-productos {
-    font-size: 20px;
-    margin-top: 0.5rem;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 1rem;
+    text-align: left;
   }
   .Productos {
     display: flex;
@@ -934,6 +952,7 @@ ul {
     text-align: left;
     line-height: 20px;
     font-size: 12px;
+    max-width: 80%;
   }
   .visitas {
     display: flex;
@@ -942,22 +961,22 @@ ul {
        padding: 10px;
        margin: 10px; */
   }
-  .titulo-visitas {
-    font-size: 20px;
-    margin-top: 0.5rem;
-    text-align: center;
-  }
-  .titulo-visitas1 {
+  .titulo-visita {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
     margin-top: 1rem;
     text-align: left;
+  }
+  .titulo-visitas1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0,5rem;
+    text-align: center;
     color: black;
   }
   .visitas-derecha {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -965,21 +984,19 @@ ul {
     border-radius: 10px;
     overflow: hidden;
     border: 2px;
-    /* margin-top: 50px; */
+    margin: auto;
   }
   .visitas-izquierda {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     line-height: 20px;
-    /* margin-top: 50px; */
+    margin: auto;
   }
   .visitas-derecha1 {
     width: 100%;
-    height: 150%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -988,31 +1005,32 @@ ul {
     border-radius: 10px;
     overflow: hidden;
     border: 2px;
+    margin: auto;
     /* margin-top: 50px; */
   }
   .visitas-izquierda1 {
-    width: 100%;
+    width: 65%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     line-height: 20px;
+    margin: auto;
   }
-  .parrafo-visitas {
+  .visitas-parrafo {
     font-weight: normal;
     text-align: center;
     line-height: 25px;
     font-style: normal;
     font-size: 12px;
+    max-width: 80%;
   }
   .linea-visitas {
     display: none;
   }
   .visitas-imagen {
-    /* padding-top: 30px; */
-    width: 350px;
-    height: 200px;
+    width: 75%;
     justify-content: center;
   }
   .contacto {
@@ -1030,9 +1048,10 @@ ul {
     width: 300px;
     height: 150px;
   }
-  .mb-3 {
-    width: 300px;
-    height: 150px;
+  .exampleFormControlTextarea1 {
+    width: 80%;
+    row-gap: 8;
+    margin: auto;
   }
   .boton-izquierda {
     text-decoration: none;
@@ -1056,7 +1075,7 @@ ul {
   }
   .boton-derecha {
     text-decoration: none;
-    font-weight: 10;
+    font-weight: 10px;
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -1074,5 +1093,18 @@ ul {
   .ubicacion {
     max-width: 400px;
     max-height: 100vh;
+  }
+  .mb-3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .seccion-item {
+    margin-top: 20px;
+  }
+  .caja {
+    border: white;
+  }
+  .caja-contacto {
+    border: white;
   }
 }

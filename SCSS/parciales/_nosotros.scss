@@ -5,6 +5,7 @@
    margin-top: 20px;
    margin-bottom: 10px;
 }
+
 .nosotros-titulo {
    font-size: $sizeTitulo;
    text-align: center;
@@ -13,13 +14,23 @@
    margin: 10px;
    padding: 10px;
 }
-.nosotros-parrafo {
+
+.nosotros-parrafo1 {
    text-align: center;
-   padding: 30px;
+   padding: 20px;
    // margin-bottom: 20px;
-   margin-left: 20px;
    font-style: italic;
    align-items: center;
+   justify-content: center;
+}
+
+.nosotros-parrafo2 {
+   text-align: center;
+   padding: 20px;
+   // margin-bottom: 20px;
+   font-style: italic;
+   align-items: center;
+   justify-content: center;
 }
 
 .caja {
@@ -34,27 +45,15 @@
    -moz-border-radius: 35px 0px 35px 0px;
    -webkit-border-radius: 35px 0px 35px 0px;
    border: 2px solid $colorPrincipal;
-   ;
 }
 
 .nosotros-imagen {
-   // border-radius: 300px;
-   // overflow: hidden;
-   // justify-items: center;
-   // align-items: center;
-   // margin: 10px;
-   // padding: 10px;
    margin-left: 0%;
    margin-right: 0%;
-   width: 550px;
-    height: 250px;
-   //  border-radius:150px;
-   //  border-color: $colorPrincipal;
-   //  border-style: double;
-    justify-items: center;
-    border-radius: 8px;
-    width: 550px;
-    height: 250px;
+   width: 80%;
+   height: 80%;
+   justify-items: center;
+   border-radius: 8px;
 }
 
 .nosotros-titulo1 {
@@ -66,18 +65,7 @@
    margin: 10px;
    padding: 10px;
 }
-// .caja-parrafos {
-//    border-radius: 35px 0px 35px 0px;
-// -moz-border-radius: 35px 0px 35px 0px;
-// -webkit-border-radius: 35px 0px 35px 0px;
-// border: 2px solid $colorPrincipal;
-// }
-// .caja-parrafos1 {
-//    border-radius: 0px 35px 0px 35px;
-// -moz-border-radius: 0px 35px 0px 35px;
-// -webkit-border-radius:0px 35px 0px 35px;
-// border: 2px solid $colorPrincipal;
-// }
+
 .nosotros {
    display: flex;
    min-width: 500px;
@@ -85,15 +73,18 @@
    padding: 10px;
    margin: 10px;
    justify-self: center;
+   align-items: center;
 }
 
 .nosotros2 {
    display: flex;
+   flex-direction: row-reverse;
    min-width: 500px;
    max-height: 100%;
    padding: 10px;
    margin: 10px;
    justify-self: center;
+   align-items: center;
 }
 
 .nosotros-derecha {
@@ -102,10 +93,6 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-direction: column;
-   margin: 10px;
-   padding-top: 20px;
-   margin-top: 10px;
 }
 
 .nosotros-izquierda {
