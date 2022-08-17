@@ -84,8 +84,9 @@
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       font-size: 18px;
-      margin-top: 1rem;
-      text-align: left;
+      margin-top: 0,5rem;
+      text-align: center;
+
    }
 
    .parrafo-index {
@@ -104,15 +105,19 @@
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       font-size: 18px;
-      margin-top: 1rem;
-      text-align: left;
+      margin-top: 0,5rem;
+      text-align: center;
    }
-
+   .nosotros-titulo1 {
+      font-size: 14px;
+      margin-top: 0,5rem;
+      text-align: center;
+      font-style: oblique;
+   }
 
    .nosotros {
       display: flex;
       flex-direction: column;
-      max-width: 500px;
    }
 
    .nosotros2 {
@@ -120,8 +125,7 @@
    }
 
    .nosotros-izquierda {
-      width: 65%;
-      height: 100%;
+      width: 100%;
       justify-content: center;
       align-items: center;
       display: flex;
@@ -130,8 +134,7 @@
       line-height: 20px;
    }
    .nosotros-derecha {
-      width: 65%;
-      height: 100%;
+      width:100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -139,17 +142,16 @@
       margin-top: 10px;
       border-radius: 10px;
       overflow: hidden;
+      font-size: 12px;
    }
 
-   .nosotros-parrafos {
-      width: 65%;
+   .nosotros-parrafos1 {
+      width: 100%;
       font-weight: normal;
       text-align: center;
-      line-height: 25px;
+      line-height: 20px;
       font-style: normal;
       font-size: 12px;
-      margin-left: 5px;
-      max-width: 80%;
    }
 
    .nosotros-imagen {
@@ -163,7 +165,7 @@
       font-weight: bold;
       font-size: 18px;
       margin-top: 1rem;
-      text-align: left;
+      text-align: center;
    }
 
    .Productos {
@@ -226,7 +228,7 @@
       text-align: left;
       line-height: 20px;
       font-size: 12px;
-      max-width: 80%;
+      max-width: 100%;
    }
 
    .visitas {
@@ -243,7 +245,7 @@
       font-weight: bold;
       font-size: 18px;
       margin-top: 1rem;
-      text-align: left;
+      text-align: center;
    }
 
    .titulo-visitas1 {
@@ -291,8 +293,7 @@
    }
 
    .visitas-izquierda1 {
-      width: 65%;
-      height: 100%;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -307,7 +308,7 @@
       line-height: 25px;
       font-style: normal;
       font-size: 12px;
-      max-width: 80%;
+      max-width: 100%;
    }
 
    .linea-visitas {
@@ -329,7 +330,7 @@
       font-weight: bold;
       font-size: 18px;
       margin-top: 1rem;
-      text-align: left;
+      text-align: center;
    }
 
    .ubicacion {
