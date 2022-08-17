@@ -860,6 +860,7 @@ ul {
   .nosotros {
     display: flex;
     flex-direction: column;
+    min-width: 100%;
   }
   .nosotros2 {
     display: none;
@@ -959,9 +960,8 @@ ul {
   .visitas {
     display: flex;
     flex-direction: column;
-    /* height: 150%;
-       padding: 10px;
-       margin: 10px; */
+    min-width: 100%;
+    margin: 0%;
   }
   .titulo-visita {
     font-family: 'Montserrat', sans-serif;
