@@ -861,6 +861,7 @@ ul {
     display: flex;
     flex-direction: column;
     min-width: 100%;
+    margin: 0%;
   }
   .nosotros2 {
     display: none;
@@ -894,8 +895,7 @@ ul {
     font-size: 12px;
   }
   .nosotros-imagen {
-    width: 350px;
-    height: 200px;
+    width: 100%;
     justify-content: center;
   }
   .titulo-productos {
@@ -1031,12 +1031,14 @@ ul {
     display: none;
   }
   .visitas-imagen {
-    width: 75%;
+    width: 100%;
     justify-content: center;
   }
   .contacto {
     display: flex;
     flex-direction: column;
+    min-width: 0%;
+    margin: 0%;
   }
   .titulo-contacto {
     font-family: 'Montserrat', sans-serif;
@@ -1050,9 +1052,11 @@ ul {
     height: 150px;
   }
   .exampleFormControlTextarea1 {
-    width: 80%;
-    row-gap: 8;
+    width: 100%;
     margin: auto;
+  }
+  .form-control {
+    width: 300px;
   }
   .boton-izquierda {
     text-decoration: none;
