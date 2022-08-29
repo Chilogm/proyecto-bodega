@@ -828,8 +828,8 @@ ul {
     justify-content: flex-end;
   }
   .logo-wpp1 {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
   .imagen-grande-index {
     justify-items: center;
@@ -865,7 +865,7 @@ ul {
   }
   .nosotros-titulo1 {
     font-size: 14px;
-    margin-top: 0, 5rem;
+    margin-top: 10px;
     text-align: center;
     font-style: oblique;
   }
