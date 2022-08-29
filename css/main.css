@@ -827,6 +827,10 @@ ul {
     align-items: center;
     justify-content: flex-end;
   }
+  .logo-wpp1 {
+    width: 20px;
+    height: 20px;
+  }
   .imagen-grande-index {
     justify-items: center;
     width: 354px;
@@ -839,7 +843,7 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 0, 5rem;
+    margin-top: 10px;
     text-align: center;
   }
   .parrafo-index {
@@ -856,7 +860,7 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 0, 5rem;
+    margin-top: 10px;
     text-align: center;
   }
   .nosotros-titulo1 {
@@ -937,7 +941,7 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 1rem;
+    margin-top: 10px;
     text-align: center;
   }
   .nosotros-parrafo-principal {
@@ -947,7 +951,6 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    /* margin: 10px; */
   }
   .producto-izquierda {
     width: 100%;
@@ -1006,7 +1009,7 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 1rem;
+    margin-top: 10px;
     text-align: center;
   }
   .visitas1-titulo {
@@ -1015,7 +1018,7 @@ ul {
   .titulo-visitas1 {
     font-weight: bold;
     font-size: 18px;
-    margin-top: 0, 5rem;
+    margin-top: 10px;
     text-align: center;
     color: black;
   }
@@ -1050,7 +1053,6 @@ ul {
     overflow: hidden;
     border: 2px;
     margin: auto;
-    /* margin-top: 50px; */
   }
   .visitas-izquierda1 {
     width: 100%;
@@ -1086,7 +1088,7 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 1rem;
+    margin-top: 10px;
     text-align: center;
   }
   .ubicacion {
