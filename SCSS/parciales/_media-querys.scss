@@ -1,5 +1,9 @@
 @media screen and (max-width: 599px) {
 
+   main {
+      margin-top: 50px;
+   }
+
    .nav {
       display: none;
    }
@@ -40,9 +44,11 @@
       width: 65px;
       height: 50px;
    }
-.footer {
-   width: 100%;
-}
+
+   .footer {
+      width: 100%;
+   }
+
    .logo-footer {
       width: 15px;
       height: 15px;
@@ -84,7 +90,7 @@
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       font-size: 18px;
-      margin-top: 0,5rem;
+      margin-top: 0, 5rem;
       text-align: center;
 
    }
@@ -105,12 +111,13 @@
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       font-size: 18px;
-      margin-top: 0,5rem;
+      margin-top: 0, 5rem;
       text-align: center;
    }
+
    .nosotros-titulo1 {
       font-size: 14px;
-      margin-top: 0,5rem;
+      margin-top: 0, 5rem;
       text-align: center;
       font-style: oblique;
    }
@@ -120,10 +127,15 @@
       flex-direction: column;
       min-width: 100%;
       margin: 0%;
+      background-color: white;
    }
 
    .nosotros2 {
       display: none;
+      display: flex;
+      flex-direction: column;
+      min-width: 100%;
+      margin: 0%;
    }
 
    .nosotros-izquierda {
@@ -135,8 +147,31 @@
       margin-top: 10px;
       line-height: 20px;
    }
+
    .nosotros-derecha {
-      width:100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 10px;
+      border-radius: 10px;
+      overflow: hidden;
+      font-size: 12px;
+   }
+
+   .nosotros-izquierda1 {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      line-height: 20px;
+   }
+
+   .nosotros-derecha1 {
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -159,6 +194,8 @@
    .nosotros-imagen {
       width: 100%;
       justify-content: center;
+      border-radius: 10px;
+      overflow: hidden;
    }
 
    .titulo-productos {
@@ -167,6 +204,10 @@
       font-size: 18px;
       margin-top: 1rem;
       text-align: center;
+   }
+
+   .nosotros-parrafo-principal {
+      font-size: 15px;
    }
 
    .Productos {
@@ -236,8 +277,8 @@
       display: flex;
       flex-direction: column;
       min-width: 100%;
+      min-height: 500px;
       margin: 0%;
- 
    }
 
    .titulo-visita {
@@ -248,16 +289,20 @@
       text-align: center;
    }
 
+   .visitas1-titulo {
+      margin-top: 10px;
+   }
+
    .titulo-visitas1 {
       font-weight: bold;
       font-size: 18px;
-      margin-top: 0,5rem;
+      margin-top: 0, 5rem;
       text-align: center;
       color: black;
    }
 
    .visitas-derecha {
-   width: 100%;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -275,11 +320,11 @@
       align-items: center;
       flex-direction: column;
       line-height: 20px;
-  margin: auto;
+      margin: auto;
    }
 
    .visitas-derecha1 {
-   width: 100%;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -397,13 +442,16 @@
       max-width: 400px;
       max-height: 100vh;
    }
+
    .mb-3 {
       margin-top: 10px;
       margin-bottom: 10px;
    }
+
    .seccion-item {
       margin-top: 20px;
    }
+
    .caja {
       border: white;
    }
@@ -411,4 +459,14 @@
    .caja-contacto {
       border: white;
    }
+}
+
+   .logo-wpp {
+   width: 30px;
+   height: 30px;
+}
+
+   .palabras {
+   color: $colorPrincipal;
+   font-weight: bold;
 }

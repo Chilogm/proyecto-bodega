@@ -220,12 +220,8 @@ body {
   margin: 10px;
 }
 
-.titulo-nosotros {
-  font-size: 30px;
-  text-align: center;
-  color: #350135;
-  margin-top: 20px;
-  margin-bottom: 10px;
+.rojo {
+  margin-top: 75px;
 }
 
 .nosotros-titulo {
@@ -233,47 +229,27 @@ body {
   text-align: center;
   font-weight: bold;
   color: #350135;
-  margin: 10px;
-  padding: 10px;
-}
-
-.nosotros-parrafo1 {
-  text-align: center;
-  padding: 20px;
-  font-style: italic;
-  align-items: center;
-  justify-content: center;
-}
-
-.nosotros-parrafo2 {
-  text-align: center;
-  padding: 20px;
-  font-style: italic;
-  align-items: center;
-  justify-content: center;
 }
 
 .caja {
-  font-weight: 400px;
-  max-width: 1500px;
   text-align: center;
-  justify-content: center;
-  margin: 10px;
+  margin-top: 30px;
   overflow: hidden;
   padding: 20px;
   border-radius: 35px 0px 35px 0px;
   -moz-border-radius: 35px 0px 35px 0px;
   -webkit-border-radius: 35px 0px 35px 0px;
   border: 2px solid #350135;
+  margin: 10px;
 }
 
-.nosotros-imagen {
-  margin-left: 0%;
-  margin-right: 0%;
-  width: 80%;
-  height: 80%;
-  justify-items: center;
-  border-radius: 8px;
+.nosotros-parrafo1 {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
 }
 
 .nosotros-titulo1 {
@@ -290,10 +266,29 @@ body {
   display: flex;
   min-width: 500px;
   max-height: 100%;
-  padding: 10px;
-  margin: 10px;
+  padding: 8px;
   justify-self: center;
   align-items: center;
+  background-color: rgba(64, 0, 45, 0.198);
+}
+
+.nosotros-derecha {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+}
+
+.nosotros-izquierda {
+  width: 55%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: -8px;
 }
 
 .nosotros2 {
@@ -307,22 +302,46 @@ body {
   align-items: center;
 }
 
-.nosotros-derecha {
-  width: 50%;
+.nosotros-derecha1 {
+  width: 55%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0%;
 }
 
-.nosotros-izquierda {
-  width: 50%;
+.nosotros-izquierda1 {
+  width: 45%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   flex-direction: column;
-  margin: 5px;
   border-radius: 10px;
+  margin: -8px;
+}
+
+.nosotros-imagen {
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 700px;
+  height: 50%;
+  justify-items: center;
+}
+
+.nosotros-parrafo-principal {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+  margin-block-end: 30px;
+  font-size: 22px;
+  margin: 20px;
+}
+
+.palabras {
+  color: #350135;
+  font-weight: bold;
 }
 
 .Productos {
@@ -465,7 +484,7 @@ ul {
 .visitas {
   display: flex;
   min-width: 500px;
-  max-height: 100%;
+  max-height: 400px;
   padding: 10px;
   margin: 10px;
 }
@@ -497,37 +516,37 @@ ul {
 
 .visitas-derecha {
   width: 50%;
-  height: 100%;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 10px;
-  padding-top: 20px;
   margin-top: 10px;
 }
 
 .visitas-izquierda {
   width: 50%;
+  height: 60%;
   display: flex;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   flex-direction: column;
-  margin: 5px;
+  margin: 10px;
   border-radius: 10px;
 }
 
 .visitas-derecha1 {
   width: 50%;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 10px;
   margin-top: 10px;
 }
 
 .visitas-izquierda1 {
   width: 50%;
+  height: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -549,27 +568,8 @@ ul {
   margin-top: 0;
   border-radius: 20px;
   overflow: hidden;
-}
-
-.boton-reserva {
-  text-decoration: none;
-  font-weight: 200;
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  background-color: #350135;
-  padding: 10px;
-  border-radius: 10px;
-  position: fixed;
-  left: 2rem;
-  bottom: 2rem;
-  transition: all 1s;
-}
-
-.boton-reserva:hover {
-  padding: 2rem;
-  color: white;
-  transform: rotate(45);
+  height: 90%;
+  width: 90%;
 }
 
 .contacto {
@@ -756,7 +756,15 @@ ul {
   bottom: 2rem;
 }
 
+.logo-wpp1 {
+  width: 50px;
+  height: 50px;
+}
+
 @media screen and (max-width: 599px) {
+  main {
+    margin-top: 50px;
+  }
   .nav {
     display: none;
   }
@@ -831,7 +839,7 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 0,5rem;
+    margin-top: 0, 5rem;
     text-align: center;
   }
   .parrafo-index {
@@ -848,12 +856,12 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 0,5rem;
+    margin-top: 0, 5rem;
     text-align: center;
   }
   .nosotros-titulo1 {
     font-size: 14px;
-    margin-top: 0,5rem;
+    margin-top: 0, 5rem;
     text-align: center;
     font-style: oblique;
   }
@@ -862,9 +870,14 @@ ul {
     flex-direction: column;
     min-width: 100%;
     margin: 0%;
+    background-color: white;
   }
   .nosotros2 {
     display: none;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    margin: 0%;
   }
   .nosotros-izquierda {
     width: 100%;
@@ -886,6 +899,26 @@ ul {
     overflow: hidden;
     font-size: 12px;
   }
+  .nosotros-izquierda1 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    line-height: 20px;
+  }
+  .nosotros-derecha1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 12px;
+  }
   .nosotros-parrafos1 {
     width: 100%;
     font-weight: normal;
@@ -897,6 +930,8 @@ ul {
   .nosotros-imagen {
     width: 100%;
     justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
   }
   .titulo-productos {
     font-family: 'Montserrat', sans-serif;
@@ -904,6 +939,9 @@ ul {
     font-size: 18px;
     margin-top: 1rem;
     text-align: center;
+  }
+  .nosotros-parrafo-principal {
+    font-size: 15px;
   }
   .Productos {
     display: flex;
@@ -961,6 +999,7 @@ ul {
     display: flex;
     flex-direction: column;
     min-width: 100%;
+    min-height: 500px;
     margin: 0%;
   }
   .titulo-visita {
@@ -970,10 +1009,13 @@ ul {
     margin-top: 1rem;
     text-align: center;
   }
+  .visitas1-titulo {
+    margin-top: 10px;
+  }
   .titulo-visitas1 {
     font-weight: bold;
     font-size: 18px;
-    margin-top: 0,5rem;
+    margin-top: 0, 5rem;
     text-align: center;
     color: black;
   }
@@ -1112,4 +1154,14 @@ ul {
   .caja-contacto {
     border: white;
   }
+}
+
+.logo-wpp {
+  width: 30px;
+  height: 30px;
+}
+
+.palabras {
+  color: #350135;
+  font-weight: bold;
 }

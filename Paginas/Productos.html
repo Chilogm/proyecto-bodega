@@ -85,7 +85,7 @@
                         </ul>
                     </div>
                     <div class="producto-derecha">
-                        <img src="../imagenes/losenamorados.png" alt="Los Enamorados" width="675" height="300">
+                        <img src="../imagenes/losenamorados.png" alt="Los Enamorados">
                         <span class="envio-gratis">
                             Envío Gratis
                         </span>
@@ -98,7 +98,7 @@
                     <div class="producto-izquierda">
                         <h2 class="subtitulo-productos">
                             Caja Mítica
-                            <div class="linea"></div>
+                            <div class="linea-productos"></div>
                         </h2>
                         <span class="span-productos">
                             Caja de 4 botellas 750cc c/u:
@@ -116,7 +116,7 @@
                         </ul>
                     </div>
                     <div class="producto-derecha">
-                        <img src="../imagenes/mitica.png" alt="Caja mitica" width="675" height="300">
+                        <img src="../imagenes/mitica.png" alt="Caja mitica">
                         <span class="envio-gratis">
                             Envío Gratis
                         </span>
@@ -150,7 +150,7 @@
                         </ul>
                     </div>
                     <div class="producto-derecha">
-                        <img src="../imagenes/clasica.png" alt="Caja mix clasica" width="675" height="300">
+                        <img src="../imagenes/clasica.png" alt="Caja mix clasica">
                         <span class="envio-gratis">
                             Envío Gratis
                         </span>
@@ -181,7 +181,7 @@
                         </ul>
                     </div>
                     <div class="producto-derecha">
-                        <img src="../imagenes/especial.png" alt="Caja especial" width="675" height="300">
+                        <img src="../imagenes/especial.png" alt="Caja especial">
                         <span class="envio-gratis">
                             Envío Gratis
                         </span>
@@ -204,7 +204,7 @@
                         </span>
                     </div>
                     <div class="producto-derecha">
-                        <img src="../imagenes/libro.png" alt="Libro" width="675" height="300">
+                        <img src="../imagenes/libro.png" alt="Libro">
                         <span class="precio">
                             $1000
                             </span>
@@ -237,16 +237,100 @@
                             <input type="email" class="form-control" id="exampleFormControlInput1"
                                 placeholder="Ingresá tu mail">
                         </div>
-                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                            <option selected>¿Cuál te gustaría comprar?</option>
+                        <label for="exampleFormControlInput1" class="form-label">¿Cuál compras?</label> 
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                             Caja Los Enamorados
+                            </label>
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option selected>Seleccioná la cantidad</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                             Caja Mix Clásica
+                            </label>
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option selected>Seleccioná la cantidad</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                          </div> 
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                             Caja Mítica
+                            </label>
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option selected>Seleccioná la cantidad</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                             Caja Especial
+                            </label>
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option selected>Seleccioná la cantidad</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                             Libro Serie Tarot
+                            </label>
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                <option selected>Seleccioná la cantidad</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                          </div>
+                        <!-- <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>Elegí el que más te guste:</option>
                             <option value="1">Caja Los Enamorados</option>
                             <option value="2">Caja Mix Clásica</option>
                             <option value="3">Caja Mítica</option>
                             <option value="4">Caja Especial</option>
-                        </select>
+                            <option value="4">Libro:Serie Tarot</option>
+                        </select> -->
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Dirección:</label>
+                            <input type="Dirección" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Ingresá tu dirección">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Código postal:</label>
+                            <input type="Código postal" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Ingresá tu código postal:">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Localidad:</label>
+                            <input type="Localidad" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Ingresá tu localidad">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Provincia:</label>
+                            <input type="Provincia" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Ingresá tu Provincia">
+                        </div>
                     </div>
                     <div class="modal-footer">
-                        <span>Nos comunicaremos con vos, gracias. </span>
+                        <span>Nos comunicaremos con vos para que realices el pago, gracias. </span>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                         <button type="button" class="btn btn-primary boton-derecha-enviar">Enviar</button>
                     </div>
@@ -256,7 +340,7 @@
         <div class="wpp">
             <a title="Whatsapp" href="https://api.whatsapp.com/send?phone=2615877915&text=Hola, Familia Zaina. Soy"
                 target="_blank">
-                <img src="../imagenes/wpp color.png" alt="whatsapp" width="50" height="50">
+                <img class= "logo-wpp1" class= "logo-wpp" src="../imagenes/wpp color.png" alt="whatsapp">
             </a>
         </div>
     </main>
@@ -269,19 +353,17 @@
         <div>
             <img class="logo-zaina" src="../imagenes/Logo-Familia-01.png" alt="logo zaina">
         </div>
-        <nav>
             <ul class="footer-lista">
                 <li>
-                    <a class="redes-footer" title= "Facebook" href="https://www.facebook.com/bodegafamiliazaina"target="_blank"> <img class="logo-footer" src="../imagenes/facebook copia.png" alt="Facebook"width="20" height="20"/></a>
+                    <a class="redes-footer" title= "Facebook" href="https://www.facebook.com/bodegafamiliazaina"target="_blank"> <img class="logo-footer" src="../imagenes/facebook copia.png" alt="Facebook"/></a>
                 </li>
                 <li>
-                    <a class="redes-footer" title= "Whatsapp" href="https://api.whatsapp.com/send?phone=2615877915&text=Hola, Familia Zaina. Soy"target="_blank"> <img class="logo-footer" src="../imagenes/whatsapp copia.png" alt="Logo Whatapp"width="20" height="20"/></a>
+                    <a class="redes-footer" title= "Whatsapp" href="https://api.whatsapp.com/send?phone=2615877915&text=Hola, Familia Zaina. Soy"target="_blank"> <img class="logo-footer" src="../imagenes/whatsapp copia.png" alt="Logo Whatapp"/></a>
                 </li>
                 <li>
-                    <a class="redes-footer" title= "Instagram" href="https://www.instagram.com/familiazaina"target="_blank"> <img class="logo-footer" src="../imagenes/instagram copia.png" alt="Logo Instagram"width="20" height="20"/></a> 
+                    <a class="redes-footer" title= "Instagram" href="https://www.instagram.com/familiazaina"target="_blank"> <img class="logo-footer" src="../imagenes/instagram copia.png" alt="Logo Instagram"/></a> 
                 </li>
             </ul>
-        </nav>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
