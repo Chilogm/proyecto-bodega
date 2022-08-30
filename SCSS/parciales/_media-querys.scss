@@ -117,6 +117,7 @@
       font-weight: bold;
       font-size: 18px;
       text-align: center;
+      margin-top: 20px;
    }
 
    .nosotros-titulo1 {
@@ -207,6 +208,9 @@
       font-weight: bold;
       font-size: 18px;
       text-align: center;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      padding: 0px;
    }
 
    .nosotros-parrafo-principal {
@@ -216,7 +220,8 @@
    .Productos {
       display: flex;
       flex-direction: column;
-      padding: 10px;
+      padding: 0px;
+      margin: 0px;
    }
 
    .producto-izquierda {
@@ -246,9 +251,9 @@
 
    .subtitulo-productos {
       font-size: 16px;
-      margin-top: 1rem;
+      margin-top: 20px;
       text-align: center;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
    }
 
    .linea-productos {
@@ -258,7 +263,7 @@
    .span-productos {
       line-height: 12px;
       font-size: 12px;
-      margin-top: 20ppx;
+      margin-top: 10px;
       margin-bottom: 10px;
       text-align: center;
       font-style: italic;
@@ -468,5 +473,5 @@
 }
 
 .rojo {
-   margin-top: 20px;
+   margin-top: 40px;
 }
