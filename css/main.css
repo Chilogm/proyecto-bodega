@@ -763,7 +763,7 @@ ul {
 
 @media screen and (max-width: 599px) {
   main {
-    margin-top: 50px;
+    margin-top: 75px;
   }
   .nav {
     display: none;
@@ -860,7 +860,6 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 10px;
     text-align: center;
   }
   .nosotros-titulo1 {
@@ -941,7 +940,6 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 10px;
     text-align: center;
   }
   .nosotros-parrafo-principal {
@@ -1151,10 +1149,10 @@ ul {
     margin-top: 20px;
   }
   .caja {
-    display: none;
+    border: white;
   }
   .caja-contacto {
-    display: none;
+    border: white;
   }
 }
 
@@ -1166,4 +1164,8 @@ ul {
 .palabras {
   color: #350135;
   font-weight: bold;
+}
+
+.rojo {
+  display: none;
 }

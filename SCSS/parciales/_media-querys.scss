@@ -1,7 +1,7 @@
 @media screen and (max-width: 599px) {
 
    main {
-      margin-top: 50px;
+      margin-top: 75px;
    }
 
    .nav {
@@ -116,7 +116,6 @@
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       font-size: 18px;
-      margin-top: 10px;
       text-align: center;
    }
 
@@ -207,7 +206,6 @@
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       font-size: 18px;
-      margin-top: 10px;
       text-align: center;
    }
 
@@ -228,8 +226,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      //  margin: 10px;
-      //  padding: 10px;
+
       line-height: 20px;
       margin: 0%;
    }
@@ -452,11 +449,11 @@
    }
 
    .caja {
-      display: none;
+      border: white;
    }
 
    .caja-contacto {
-   display: none;
+      border: white;
    }
 }
 
@@ -468,4 +465,7 @@
    .palabras {
    color: $colorPrincipal;
    font-weight: bold;
+}
+.rojo {
+   display: none;
 }
