@@ -1151,10 +1151,10 @@ ul {
     margin-top: 20px;
   }
   .caja {
-    border: white;
+    display: none;
   }
   .caja-contacto {
-    border: white;
+    display: none;
   }
 }
 
