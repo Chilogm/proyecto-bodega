@@ -47,7 +47,7 @@
    // margin: 10px;
    justify-self: center;
    align-items: center;
-   background-color: rgba(64, 0, 45, 0.198);
+   // background-color: rgba(64, 0, 45, 0.198);
 }
 
 .nosotros-derecha {
@@ -82,7 +82,7 @@
 }
 
 .nosotros-derecha1 {
-   width: 55%;
+   width: 45%;
    height: 100%;
    display: flex;
    justify-content: center;
@@ -92,7 +92,7 @@
 }
 
 .nosotros-izquierda1 {
-   width: 45%;
+   width: 55%;
    display: flex;
    justify-content: left;
    align-items: left;
@@ -102,11 +102,18 @@
 }
 
 .nosotros-imagen {
-   margin-left: 0%;
+   margin-left: 20px;
    margin-right: 0%;
    width: 700px;
    height: 50%;
    justify-items: center;
+}
+.nosotros-imagen1 {
+   margin-left: 60px;
+   margin-right: 0%;
+   width: 700px;
+   height: 50%;
+   justify-items: right;
 }
 .nosotros-parrafo-principal {
    margin-bottom: 10px;
